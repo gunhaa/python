@@ -1,0 +1,43 @@
+#chatbox{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000000;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+#chatContext{
+    position: relative;
+    max-width: auto;
+    height: auto;
+}
+
+#client {
+    max-width: 100px;
+    border: 1px solid #bec5d7;
+    margin-left: 30px;
+    /* margin: 12px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 12px;
+    display: inline-block; */
+    /* 긴 단어나 텍스트가 박스를 넘치지 않도록 줄바꿈을 강제합니다 */
+    word-wrap: break-word;
+    /* overflow-wrap: break-word; CSS3 속성, 호환성 문제 없음 */
+}
+
+#server {
+    max-width: 100px;
+    border: 1px solid #bec5d7;
+    margin-left: 350px;
+    /* margin: 12px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 12px; */
+    display: inline-block;
+    /* 긴 단어나 텍스트가 박스를 넘치지 않도록 줄바꿈을 강제합니다 */
+    word-wrap: break-word;
+    /* overflow-wrap: break-word; CSS3 속성, 호환성 문제 없음 */
+
+}
